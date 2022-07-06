@@ -1,0 +1,36 @@
+{
+  "name": "mobile-nft-wallet",
+  "displayName": "Mobile NFT Wallet",
+  "expo": {
+    "name": "mobile-nft-wallet",
+    "slug": "mobile-nft-wallet",
+    "owner": "corradorossi",
+    "id": "3f9744f6-7f9e-49f6-b2bd-e41e0ad4f81e",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon-all.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "icon": "./assets/images/app-icon-android-legacy.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+      }
+    },
+    "ios": {
+      "icon": "./assets/images/app-icon-ios.png",
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/images/app-icon-web-favicon.png"
+    }
+  }
+}
