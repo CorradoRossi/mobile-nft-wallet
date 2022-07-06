@@ -13,7 +13,7 @@ import {
 import { color, spacing, typography } from "../../theme"
 import { NavigatorParamList } from "../../navigators"
 
-const bowserLogo = require("./bowser.png")
+const bowserLogo = require("./ape4.png")
 
 const FULL: ViewStyle = { flex: 1 }
 const CONTAINER: ViewStyle = {
@@ -96,19 +96,19 @@ export const WelcomeScreen: FC<StackScreenProps<NavigatorParamList, "welcome">> 
         <Screen style={CONTAINER} preset="scroll" backgroundColor={color.transparent}>
           <Header headerTx="welcomeScreen.poweredBy" style={HEADER} titleStyle={HEADER_TITLE} />
           <Text style={TITLE_WRAPPER}>
-            <Text style={TITLE} text="Your new app, " />
-            <Text style={ALMOST} text="almost" />
+            <Text style={TITLE} text="Welcome, " />
+            <Text style={ALMOST} text="cryptonauts" />
             <Text style={TITLE} text="!" />
           </Text>
           <Text style={TITLE} preset="header" tx="welcomeScreen.readyForLaunch" />
           <Image source={bowserLogo} style={BOWSER} />
           <Text style={CONTENT}>
-            This probably isn't what your app is going to look like. Unless your designer handed you
-            this screen and, in that case, congrats! You're ready to ship.
+            I don't have a great piece of content to occupy this paragraph right now, but when I do
+            you'll be the first to know.
           </Text>
           <Text style={CONTENT}>
-            For everyone else, this is where you'll see a live preview of your fully functioning app
-            using Ignite.
+            Meanwhile I'm going to continue chipping away at this ridiculous ios app I'm trying to make.
+            Thanks for coming to my Ted Talk!
           </Text>
         </Screen>
         <SafeAreaView style={FOOTER}>

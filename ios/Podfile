@@ -7,7 +7,7 @@ require File.join(File.dirname(`cd #{pod_folder} && node --print "require.resolv
 platform :ios, '12.0'
 install! 'cocoapods', :deterministic_uuids => false
 
-target 'HelloWorld' do
+target 'mobileNftWallet' do
   use_expo_modules!
   post_integrate do |installer|
     begin
@@ -30,7 +30,7 @@ target 'HelloWorld' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'HelloWorldTests' do
+  target 'mobileNftWalletTests' do
     inherit! :complete
     # Pods for testing
   end

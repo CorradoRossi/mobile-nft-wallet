@@ -1,4 +1,4 @@
-package com.helloworld.newarchitecture;
+package com.mobilenftwallet.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.helloworld.BuildConfig;
-import com.helloworld.newarchitecture.components.MainComponentsRegistry;
-import com.helloworld.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.mobilenftwallet.BuildConfig;
+import com.mobilenftwallet.newarchitecture.components.MainComponentsRegistry;
+import com.mobilenftwallet.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
